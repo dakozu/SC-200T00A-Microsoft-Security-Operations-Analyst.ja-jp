@@ -56,7 +56,7 @@ lab:
     SecurityEvent 
     | where Activity startswith "4688" 
     | where Process == "reg.exe" 
-    | where CommandLine startswith "REG" 
+    | where CommandLine !startswith "REG" 
     ```
 
 1. アラートについてできるだけ多くのコンテキストを提供することにより、セキュリティオペレーションセンターアナリストを支援することが重要です。 これには、調査グラフで使用するエンティティの投影が含まれます。 次のクエリを**実行**します。
@@ -65,7 +65,7 @@ lab:
     SecurityEvent 
     | where Activity startswith "4688" 
     | where Process == "reg.exe" 
-    | where CommandLine startswith "REG" 
+    | where CommandLine !startswith "REG" 
     | extend timestamp = TimeGenerated, HostCustomEntity = Computer, AccountCustomEntity = SubjectUserName
     ```
 

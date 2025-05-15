@@ -46,7 +46,7 @@ lab:
 
 1. [リソース グループ] で **[新規作成]** を選択し、「**RG-Playbooks**」と入力して [OK] を選択します。
 
-1. プレイブック名から **for** と余分な*アンダースコア*を削除します (64 文字の制限を超えないように)。 **Defender_XDR_Ransomware_Playbook_SecOps_Tasks** という名前になるはずです。
+1. プレイブック名を **Defender_XDR_Ransomware** という名前に変更します。
 
 1. **接続**を選択します。
 
@@ -70,9 +70,9 @@ lab:
 
 1. プレイブックが表示されない場合は、コマンド バーの [最新の情報に更新] を選択します。 前の手順で作成したプレイブックが表示されるはずです。
 
-1. **Defender_XDR_Ransomware_Playbook_SecOps_Tasks** というプレイブック名リンクを選択します。
+1. **Defender_XDR_Ransomware** というプレイブック名リンクを選択します。
 
-1. **Defender_XDR_Ransomware_Playbook_SecOps_Tasks** の [ロジック アプリ デザイナー] ページで、コマンド メニューの [編集] を選択します。
+1. **Defender_XDR_Ransomware** の [ロジック アプリ デザイナー] ページで、コマンド メニューの [編集] を選択します。
 
     >**注:** 場合によっては、ページを更新する必要があります。
 
@@ -122,7 +122,7 @@ lab:
 
 1. *[アクセス許可の管理]* ページで、前のラボで作成した **RG-Playbooks** リソース グループを選択し、 **[適用]** を選択します。
 
-1. ドロップダウン リストから、**Defender_XDR_Ransomware_Playbook_SecOps_Tasks** というプレイブックを選択します。
+1. ドロップダウン リストから、**Defender_XDR_Ransomware** というプレイブックを選択します。
 
 1. 下部にある **[適用]** を選択します。
 
